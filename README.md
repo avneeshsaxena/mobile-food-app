@@ -31,11 +31,11 @@ Step : 4 Once application is in running stage, please access below API's to perf
 		RequestBody :  
 		
 		{
-        "locationid": 50,
-        "applicant": "1336145",
-        "facilityType": "Grill",
-        "cnn": "Truck",
-        "locationDescription": "11833000"
+	        "locationid": 50,
+	        "applicant": "1336145",
+	        "facilityType": "Grill",
+	        "cnn": "Truck",
+	        "locationDescription": "11833000"
         }
 		
 		API 4 : To delete any of the available foods
@@ -43,6 +43,8 @@ Step : 4 Once application is in running stage, please access below API's to perf
 		DELETE : http://localhost:9090/deleteAll/{locationid}
 		
 		Example : http://localhost:9090/deleteAll/50
+		
+		Thank you
 		
 		
 	
